@@ -1,0 +1,49 @@
+{
+  "name": "client",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    
+    "@clerk/clerk-react": "^5.53.2",
+    "@tailwindcss/vite": "^4.1.14",
+    "appwrite": "^21.2.1",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "framer-motion": "^12.23.24",
+    "konva": "^10.0.8",
+    "lucide-react": "^0.546.0",
+    "mongodb": "^6.20.0",
+    "node-appwrite": "^20.2.1",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-hot-toast": "^2.6.0",
+    "react-indiana-drag-scroll": "^2.2.1",
+    "react-qr-code": "^2.0.18",
+    "react-router-dom": "^7.9.4",
+    "react-spinners": "^0.17.0",
+    "socket.io-client": "^4.8.3",
+    "swiper": "^12.0.3",
+    "tailwindcss": "^4.1.14"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.36.0",
+    "@types/react": "^19.1.16",
+    "@types/react-dom": "^19.1.9",
+    "@vitejs/plugin-react": "^5.0.4",
+    "eslint": "^9.36.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.22",
+    "globals": "^16.4.0",
+    "vite": "npm:rolldown-vite@7.1.14"
+  },
+  "overrides": {
+    "vite": "npm:rolldown-vite@7.1.14"
+  }
+}
